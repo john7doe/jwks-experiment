@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "route": "/.well-known/openid-configuration",
+      "rewrite": "/.well-known/openid-configuration.json"
+    }
+  ],
+  "mimeTypes": {
+    ".json": "application/json"
+  }
+}
